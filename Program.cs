@@ -1,4 +1,10 @@
-﻿string[] getInputArray() 
+﻿Console.WriteLine("Контрольная работа");
+
+string[] array = getInputArray();
+printArray(array);
+printArray(getOutputArray(array));
+
+string[] getInputArray() 
 {
     string[] array = {"Monday", "Day", ":)", "Baby", "Sun", "Lesson", "Learning", "Book", "Cat", "Dog"};
     return array;
