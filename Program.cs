@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿string[] getInputArray() 
+{
+    string[] array = {"Monday", "Day", ":)", "Baby", "Sun", "Lesson", "Learning", "Book", "Cat", "Dog"};
+    return array;
+}
+
